@@ -12,7 +12,7 @@ import os
 BASE = Path(DATA_ROOT)
 epsilon = 0.1
 Dmax = 15
-Lmax = 500
+Lmax = 1000
 alpha = 0.05
 HRV_TIE_SEED = 7
 BASELINE_FILE = str(RESULTS_ROOT / 'experiment4_literal_matlab_port.npz')

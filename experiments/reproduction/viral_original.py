@@ -334,7 +334,7 @@ DataTest = np.concatenate([np.asarray(DataBin2[10000:14180], dtype=np.uint8),
         np.asarray(DataBin2[ep - 1:25000], dtype=np.uint8)])
 
 maxD = 16
-maxL = 400
+maxL = 1000
 print("EXACT DNAmain.m SETUP")
 print("DataTrain length:", len(DataTrain))
 print("DataTest length:", len(DataTest))

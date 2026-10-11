@@ -225,7 +225,7 @@ print("Python indices:", start, "to", endpoint - 1)
 datab = data_exp.copy()
 datab[datab == 0] = -1
 cumdataM = np.cumsum(datab)
-maxL = 500
+maxL = 1000
 maxD = 15
 print("RUNNING CTW ATYPICALITY PROCEDURE")
 print("maxL =", maxL)

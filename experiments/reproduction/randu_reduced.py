@@ -105,7 +105,7 @@ x = np.asarray(data, dtype=np.uint8).copy()
 N = len(x)
 epsilon = 0.1
 Dmax = 15
-Lmax = 500
+Lmax = 1000
 
 assert N == 5000
 assert abs(p - 0.505425) < 1e-12

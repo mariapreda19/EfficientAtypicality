@@ -209,7 +209,7 @@ def build_bacterial_without_baseline():
     DataBin2, DataNum2 = DNAReadFunc(d2)
     DataTrain = DataBin2[10000:20000].copy()
     DataTest = np.concatenate((DataBin2[:2000], DataBin2[4999:10000]))
-    Dmax, Lmax = 16, 800
+    Dmax, Lmax = 16, 2500
     assert len(DataTrain) == 10000 and len(DataTest) == 7001
 
     Typical = CTWbn(Dmax, len(DataTrain))

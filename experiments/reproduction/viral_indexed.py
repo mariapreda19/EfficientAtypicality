@@ -207,7 +207,7 @@ def build_viral_without_baseline():
     ep = sp + 2 * abs(len(DataNum1) - len(DataNum2))
     DataTrain = DataBin2[:10000]
     DataTest = np.concatenate((DataBin2[10000:14180], DataBin2[ep - 1:25000]))
-    Dmax, Lmax = 16, 400
+    Dmax, Lmax = 16, 1000
     assert sp == 13568 and ep == 18188
     assert len(DataTrain) == 10000 and len(DataTest) == 10993
 
@@ -242,7 +242,7 @@ else:
     typical_setup_time = time.perf_counter() - setup0
     baseline_runtime = float("nan")
 N = len(x)
-assert N == 10993 and Dmax == 16 and Lmax == 400
+assert N == 10993 and Dmax == 16 and Lmax == 1000
 assert len(TCL) == N
 
 FIRST_ORIGINAL = (10001, 14180)

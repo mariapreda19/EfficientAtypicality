@@ -325,7 +325,7 @@ print('DNAPlotTogether ep:', ep)
 DataTrain = DataBin2[10000:20000].copy()
 DataTest = np.concatenate((DataBin2[0:2000], DataBin2[4999:10000]))
 maxD = 16
-maxL = 800
+maxL = 2500
 print('EXACT DNAmain.m SETUP')
 print('DataTrain length:', len(DataTrain))
 print('DataTest length:', len(DataTest))

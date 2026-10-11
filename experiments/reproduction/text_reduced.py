@@ -13,7 +13,7 @@ TEXT_FILE = str(DATA_ROOT / "Known Typical Model" / "the home of abraham.txt")
 
 EPSILON = 0.1
 DMAX = 15
-LMAX = 500
+LMAX = 1000
 TRUE_START = 2001
 TRUE_END = 2800
 alpha = 0.05

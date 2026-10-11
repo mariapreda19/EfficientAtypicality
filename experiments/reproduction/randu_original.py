@@ -265,7 +265,7 @@ def CTWforKnownTyp_corrected(data, p, maxD, maxL):
         cldiffm[i_py] = np.min(cldiff[i_py, :number_active])
     return cldiffm, cl, typcl, cldiff, best_depth_matrix
 
-maxL = 500
+maxL = 1000
 maxD = 15
 
 print("RUNNING AUTHORS' EXHAUSTIVE CTW METHOD")
